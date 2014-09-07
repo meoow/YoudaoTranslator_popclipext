@@ -1,2 +1,2 @@
 #!/bin/bash
-exec ./got
+exec ./youdaotranslatorcli
