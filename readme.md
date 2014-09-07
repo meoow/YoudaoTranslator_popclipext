@@ -6,4 +6,8 @@ Screenshot:
 
 ![screen shot 2](2.PNG)
 
-The underling translation service of this still uses Google Translate API, when I applied the Youdao API, I'll change it.
+**Requirement:**  
+Need PopClip to be installed in your system.
+
+**Installation:**  
+Double click **YoudaoTranslator.popclipext** to install.
