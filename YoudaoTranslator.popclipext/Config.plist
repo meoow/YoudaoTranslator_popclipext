@@ -9,6 +9,10 @@
 			<string>show-result</string>
 			<key>Image File</key>
 			<string>yt.png</string>
+			<key>Requirements</key>
+			<array>
+				<string>copy</string>
+			</array>
 			<key>Shell Script File</key>
 			<string>yt.sh</string>
 			<key>Stoppable</key>
@@ -33,7 +37,25 @@
 		<key>zh-Hans</key>
 		<string>Youdao翻译扩展</string>
 	</dict>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Option Default Value</key>
+			<string>有道翻译</string>
+			<key>Option Identifier</key>
+			<string>qtype</string>
+			<key>Option Label</key>
+			<string>Querying Type</string>
+			<key>Option Type</key>
+			<string>multiple</string>
+			<key>Option Values</key>
+			<array>
+				<string>有道翻译</string>
+				<string>有道词典</string>
+			</array>
+		</dict>
+	</array>
 	<key>Version</key>
-	<integer>1</integer>
+	<integer>2</integer>
 </dict>
 </plist>
