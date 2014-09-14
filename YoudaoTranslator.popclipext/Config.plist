@@ -25,6 +25,25 @@
 				<string>有道翻译</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>Image File</key>
+			<string>yd.png</string>
+			<key>Requirements</key>
+			<array>
+				<string>copy</string>
+			</array>
+			<key>Shell Script File</key>
+			<string>yd.sh</string>
+			<key>Stoppable</key>
+			<true/>
+			<key>Title</key>
+			<dict>
+				<key>en</key>
+				<string>Youdao Dictionary</string>
+				<key>zh-Hans</key>
+				<string>有道词典</string>
+			</dict>
+		</dict>
 	</array>
 	<key>Extension Description</key>
 	<string>Translate selected text by Youdao</string>
@@ -37,25 +56,32 @@
 		<key>zh-Hans</key>
 		<string>Youdao翻译扩展</string>
 	</dict>
+	<key>Long Running</key>
+	<true/>
 	<key>Options</key>
 	<array>
 		<dict>
 			<key>Option Default Value</key>
-			<string>有道翻译</string>
+			<false/>
 			<key>Option Identifier</key>
-			<string>qtype</string>
+			<string>toclipboard</string>
 			<key>Option Label</key>
-			<string>Querying Type</string>
+			<string>复制结果到剪贴板</string>
 			<key>Option Type</key>
-			<string>multiple</string>
-			<key>Option Values</key>
-			<array>
-				<string>有道翻译</string>
-				<string>有道词典</string>
-			</array>
+			<string>boolean</string>
+		</dict>
+		<dict>
+			<key>Option Default Value</key>
+			<true/>
+			<key>Option Identifier</key>
+			<string>trunc</string>
+			<key>Option Label</key>
+			<string>词典查询只取首单词</string>
+			<key>Option Type</key>
+			<string>boolean</string>
 		</dict>
 	</array>
 	<key>Version</key>
-	<integer>2</integer>
+	<integer>10</integer>
 </dict>
 </plist>
